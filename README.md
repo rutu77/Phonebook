@@ -25,7 +25,7 @@ To run the application, do the following:
 3. Open a terminal or command prompt and navigate to the directory containing the `phone_book.py` file.
 4. Run the following command:
 
-python main.py
+python phone_book.py
 
 The application window should appear.
 
@@ -49,12 +49,3 @@ The phone book data is stored in the 'datasheet.txt' file using a dictionary, wh
 The phone book data is displayed in a table using the ttk.Treeview widget. The data is read from a CSV file named 'data.csv' using the csv module in Python. The data is displayed in columns named "Name", "Gender", "Phone No.", "Email", and "DOB". The user can add, update, remove, or search for contacts using the buttons at the bottom of the phone book interface.
 
 The script uses various Tkinter functions to create and style the GUI components, such as Entry, Label, Frame, Button, and ttk.Treeview. It also uses the csv module to read and write the CSV file, and the ast module to parse the 'datasheet.txt' file.
-
-Here are the steps to run the application:
-
-Install Python on your computer if you haven't already.
-Create a new Python file named 'phone_book.py' and copy the code into it.
-Download the 'data.csv' and 'signup.png' files and place them in the same directory as 'phone_book.py'.
-Run 'phone_book.py' by opening a terminal or command prompt and navigating to the directory containing the file. Type 'python phone_book.py' and press enter.
-The login window should appear. Enter a username and password to sign in or sign up.
-After signing in, the phone book interface should appear, where you can view, add, update, remove, and search for contacts.
