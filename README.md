@@ -25,13 +25,14 @@ To run the application, do the following:
 3. Open a terminal or command prompt and navigate to the directory containing the `phone_book.py` file.
 4. Run the following command:
 
-python phone_book.py
+python main.py
 
 The application window should appear.
 
 ## Screenshots
-
-![Phone Book Application Screenshot](screenshot.png)
+(ss1.png)
+(ss2.png)
+(ss3.png)
 
 ## Code Explanation
 
