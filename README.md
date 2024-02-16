@@ -30,9 +30,9 @@ python main.py
 The application window should appear.
 
 ## Screenshots
-(ss1.png)
-(ss2.png)
-(ss3.png)
+![Sign In Interface](ss1.png)
+![Sign Up Interface](ss2.png)
+![Main Interface](ss3.png)
 
 ## Code Explanation
 
