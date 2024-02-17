@@ -2,12 +2,12 @@
 This is a phone book application built using Python and Tkinter.
 
 # Features
-Add new contacts to the list.
-Update existing contacts in the list.
-Remove contacts from the list.
-Remove all contacts from the list
-Search for contacts by phone number.
-View a list of contacts
+* Add new contacts to the list.
+* Update existing contacts in the list.
+* Remove contacts from the list.
+* Remove all contacts from the list
+* Search for contacts by phone number.
+* View a list of contacts
 
 ### Dependencies
 
