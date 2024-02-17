@@ -7,7 +7,7 @@ This is a phone book application built using Python and Tkinter.
 * Remove contacts from the list.
 * Remove all contacts from the list
 * Search for contacts by phone number.
-* View a list of contacts
+* See a list of contacts
 
 ### Dependencies
 
