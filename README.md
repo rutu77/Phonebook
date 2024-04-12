@@ -33,19 +33,3 @@ The application window should appear.
 ![Sign In Interface](ss1.png)
 ![Sign Up Interface](ss2.png)
 ![Main Interface](ss3.png)
-
-## Code Explanation
-
-The application is built using Python and Tkinter. The login window is displayed first, allowing users to sign in or sign up. After signing in, the phone book interface is displayed, where users can view, add, update, remove, and search for contacts. The phone book data is stored in a text file named 'datasheet.txt'.
-
-The main functions in the script are:
-
-1. signin(): This function is called when the user clicks the "Sign In" button on the login screen. It reads the username and password from the input fields, and checks if they match any entry in the 'datasheet.txt' file. If there is a match, the phone book interface is displayed.
-2. signup_command(): This function is called when the user clicks the "Sign Up" button on the login screen. It displays a sign-up window where users can enter a new username and password. The new username and password are then written to the 'datasheet.txt' file.
-3. The phone book interface is created using the Tkinter library and includes functions for viewing, adding, updating, removing, and searching for contacts.
-
-The phone book data is stored in the 'datasheet.txt' file using a dictionary, where the keys are the usernames and the values are the corresponding passwords. When the phone book interface is displayed, the script reads the 'datasheet.txt' file and creates a dictionary with the username-password pairs.
-
-The phone book data is displayed in a table using the ttk.Treeview widget. The data is read from a CSV file named 'data.csv' using the csv module in Python. The data is displayed in columns named "Name", "Gender", "Phone No.", "Email", and "DOB". The user can add, update, remove, or search for contacts using the buttons at the bottom of the phone book interface.
-
-The script uses various Tkinter functions to create and style the GUI components, such as Entry, Label, Frame, Button, and ttk.Treeview. It also uses the csv module to read and write the CSV file, and the ast module to parse the 'datasheet.txt' file.
